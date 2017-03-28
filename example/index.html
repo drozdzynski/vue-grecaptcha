@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>VueGrecaptcha</title>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="../dist/vue-grecaptcha.js"></script>
+</head>
+<body>
+<div class="app">
+    <h4>v-model: </h4>
+    <vue-grecaptcha v-model="captchaResponse"></vue-grecaptcha>
+    value: {{ captchaResponse }}
+
+    <br /><br /><br />
+    <h4>callback</h4>
+    <vue-grecaptcha ref="recaptcha" v-bind:callback="callback" theme="dark"></vue-grecaptcha>
+    value: {{ captchaResponseCallback }}
+</div>
+<script type="text/javascript">
+  window.Vue.use(window.VueGrecaptcha, {
+    sitekey: 'your_key'
+  })
+  var app = new Vue({
+    el: '.app',
+    data: {
+      captchaResponse: '',
+      captchaResponseCallback: '',
+    },
+    mounted: function () {
+
+    },
+    methods: {
+      callback: function (response) {
+        this.captchaResponseCallback = response;
+      }
+    }
+  })
+</script>
+<script src="https://www.google.com/recaptcha/api.js?onload=vueRecaptchaInit&render=explicit" async defer></script>
+</body>
+</html>
