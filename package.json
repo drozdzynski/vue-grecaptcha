@@ -1,6 +1,6 @@
 {
   "name": "vue-grecaptcha",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Google Recaptcha for VueJS",
   "main": "dist/vue-grecaptcha.js",
   "unpkg": "dist/vue-grecaptcha.js",
@@ -31,7 +31,7 @@
   "homepage": "https://github.com/drozdzynski/vue-grecaptcha#readme",
   "devDependencies": {
     "babel-core": "^6.24.0",
-    "babel-eslint": "^6.1.2",
+    "babel-eslint": "^7.2.1",
     "babel-loader": "^6.4.1",
     "babel-preset-es2015": "^6.24.0",
     "eslint": "^3.18.0",

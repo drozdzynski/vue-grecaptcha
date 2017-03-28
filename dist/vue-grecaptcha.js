@@ -393,7 +393,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 var plugin = __webpack_require__(1);
 
-plugin.version = "1.0.0";
+plugin.version = "1.0.1";
 
 exports.default = plugin;
 
@@ -939,7 +939,7 @@ Q.longStackSupport = false;
 var longStackCounter = 1;
 
 // enable long stacks if Q_DEBUG is set
-if (typeof process === "object" && process && __webpack_require__.i({"__VERSION__":"1.0.0"}) && __webpack_require__.i({"__VERSION__":"1.0.0"}).Q_DEBUG) {
+if (typeof process === "object" && process && __webpack_require__.i({"__VERSION__":"1.0.1"}) && __webpack_require__.i({"__VERSION__":"1.0.1"}).Q_DEBUG) {
     Q.longStackSupport = true;
 }
 
