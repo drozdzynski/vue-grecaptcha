@@ -35,7 +35,7 @@
     "babel-loader": "^6.4.1",
     "babel-preset-es2015": "^6.24.0",
     "eslint": "^3.18.0",
-    "eslint-config-standard": "^7.1.0",
+    "eslint-config-standard": "^8.0.0",
     "eslint-loader": "^1.7.0",
     "eslint-plugin-html": "^2.0.1",
     "eslint-plugin-promise": "^3.5.0",
