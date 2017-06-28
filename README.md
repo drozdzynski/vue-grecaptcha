@@ -1,6 +1,3 @@
-[![Greenkeeper badge](https://badges.greenkeeper.io/drozdzynski/vue-grecaptcha.svg)](https://greenkeeper.io/)
-[![devDependencies Status](https://david-dm.org/drozdzynski/vue-grecaptcha/dev-status.svg)](https://david-dm.org/drozdzynski/vue-grecaptcha?type=dev)
-[![peerDependencies Status](https://david-dm.org/drozdzynski/vue-grecaptcha/peer-status.svg)](https://david-dm.org/drozdzynski/vue-grecaptcha?type=peer)
 [![TravisCI](https://travis-ci.org/drozdzynski/vue-grecaptcha.svg?branch=master)](https://travis-ci.org/drozdzynski/vue-grecaptcha)
 [![npm version](https://img.shields.io/npm/v/vue-grecaptcha.svg?style=flat)](https://www.npmjs.com/package/vue-grecaptcha)
 [![npm downloads](https://img.shields.io/npm/dm/vue-grecaptcha.svg?style=flat)](https://www.npmjs.com/package/vue-grecaptcha)
@@ -42,7 +39,7 @@ With `onload` callback, it will call init function.
 
 #### Setup sitekey
 ```javascript
-Vue.use(VueRecaptcha, {
+Vue.use(VueGrecaptcha, {
   sitekey: 'your_key'
 })
 ```
