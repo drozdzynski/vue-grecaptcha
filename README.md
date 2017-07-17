@@ -2,7 +2,7 @@
 [![npm version](https://img.shields.io/npm/v/vue-grecaptcha.svg?style=flat)](https://www.npmjs.com/package/vue-grecaptcha)
 [![npm downloads](https://img.shields.io/npm/dm/vue-grecaptcha.svg?style=flat)](https://www.npmjs.com/package/vue-grecaptcha)
 [![Twitter](https://img.shields.io/twitter/follow/drozdzynskime.svg?style=social&label=Follow)](https://twitter.com/drozdzynskime)
-[![VueLIBs](https://img.shields.io/badge/VueLIBS-vue--grecaptcha-C51162.svg)](https://vuelibs.org/libraries/701ba4f3-a1f1-4908-8e93-2f8f93b4e47f)
+[![vuelibs.org](https://img.shields.io/badge/VueLIBs-vue--grecaptcha-C51162.svg)](https://vuelibs.org/libraries/vue-grecaptcha)
 
 
 
